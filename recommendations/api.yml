@@ -122,18 +122,7 @@ definitions:
       category:
         type: integer
 
-  CoursesList:
-    type: object
-    required:
-      - total
-      - list
-    properties:
-      total:
-        type: number
-      list:
-        type: array
-        items:
-          $ref: '#/definitions/Videos'
+
 
 # Errors
   ErrorModel:
